@@ -27,7 +27,7 @@ class stone
 			fill(255,0,255)
 			imageMode(CENTER);
 			ellipseMode(RADIUS)
-			image(this.image, 0,0,this.r*2, this.r*2)
+			image(this.image, 0,0,this.r, this.r)
 			pop()
 			
 	}
